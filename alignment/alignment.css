@@ -1,0 +1,18 @@
+.right-align {
+    text-align: right;
+    display: block;
+}
+
+.left-align {
+    text-align: left;
+    display: block;
+}
+
+.center-align {
+    text-align: center;
+    display: block;
+}
+
+.ce-inline-tool{
+    max-width: 24px;
+}

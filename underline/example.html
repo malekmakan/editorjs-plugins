@@ -1,0 +1,14 @@
+<script src="https://cdn.jsdelivr.net/npm/@editorjs/editorjs@latest"></script>
+<script src="underline.js"></script>
+<link href="underline.css" rel="stylesheet" />
+
+<div id="editorjs"></div>
+
+<script>
+    const editor = new EditorJS({
+        autofocus: true,
+        tools: {
+            underline: Underline
+        }
+    });
+</script>

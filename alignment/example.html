@@ -1,0 +1,16 @@
+<script src="https://cdn.jsdelivr.net/npm/@editorjs/editorjs@latest"></script>
+<script src="alignment.js"></script>
+<link href="alignment.css" rel="stylesheet" />
+
+<div id="editorjs"></div>
+
+<script>
+    const editor = new EditorJS({
+        autofocus: true,
+        tools: {
+            left: LeftAlignment,            
+            center: CenterAlignment,
+            right: RightAlignment
+        }
+    });
+</script>

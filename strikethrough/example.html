@@ -1,0 +1,15 @@
+<script src="https://cdn.jsdelivr.net/npm/@editorjs/editorjs@latest"></script>
+<script src="strikethrough.js"></script>
+<link href="strikethrough.css" rel="stylesheet" />
+
+<div id="editorjs"></div>
+
+<script>
+    const editor = new EditorJS({
+        autofocus: true,
+        underline: true,
+        tools: {
+            strikethrough: Strikethrough
+        }
+    });
+</script>
