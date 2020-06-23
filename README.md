@@ -9,3 +9,6 @@ There are three plugins for the amazing WYSIWYG web Editor "Editor.js":
 
 ## How to use
 In each plugin folder there is a simple HTML file which is showing how you can use those plugins.
+
+## Contributors
+[@fati-pouk](https://github.com/fati-pouk)
